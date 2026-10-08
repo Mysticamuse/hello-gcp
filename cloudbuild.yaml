@@ -24,3 +24,5 @@ steps:
 
 images:
   - 'europe-west3-docker.pkg.dev/my-gcp-pca-1/hello-gcp-repo/hello-gcp:$COMMIT_SHA'
+options:
+  logging: CLOUD_LOGGING_ONLY
